@@ -1,0 +1,593 @@
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.027Z - Started listening on: \\.\pipe\nx\C:\Users\34600\AppData\Local\Temp\1cab9c4461bd1037940a\d.sock
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.031Z - [WATCHER]: Subscribed to changes within: c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse (native)
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.037Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.040Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.069Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.070Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.071Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.073Z - [REQUEST]: Client Request for Project Graph Received
+Time for 'plugin worker 10484 code loading' 7.482300000000002
+Time for 'plugin worker 19496 code loading' 9.6978
+Time for 'plugin worker 7636 code loading' 10.607399999999998
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.625Z - Time taken for 'Load Nx Plugin: c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\plugins\package-json' 547.8405ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.648Z - Time taken for 'Load Nx Plugin: c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\plugins\project-json\build-nodes\project-json' 571.2429ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.684Z - Time taken for 'loadDefaultNxPlugins' 602.6061000000001ms
+Time for 'nx/core/package-json:createNodes' 0.9355000000000473
+Time for 'nx/core/project-json:createNodes' 0.689200000000028
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 6.563200000000052
+Unable to find local plugin [] Map(0) {}
+Unable to find local plugin [] Map(0) {}
+Unable to find local plugin [] Map(0) {}
+Unable to find local plugin [] Map(0) {}
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.716Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Unable to resolve local plugin with import path @nx/cypress/plugin
+Error: Unable to resolve local plugin with import path @nx/cypress/plugin
+    at findNxProjectForImportPath (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:119:11)
+    at lookupLocalPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:79:27)
+    at resolveLocalNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:42:12)
+    at getPluginPathAndName (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:56:28)
+    at resolveNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:25:62)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async loadRemoteNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\isolation\plugin-pool.js:34:62)
+    at async c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:119:52
+    at async Promise.all (index 0)
+    at async loadSpecifiedNxPlugins (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:116:9)
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.717Z - Time taken for 'build-project-configs' 36.80510000000004ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.717Z - Done responding to the client null
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.717Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 643. Response time: 1.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.720Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.721Z - Done responding to the client handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.721Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.722Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:22.811Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 733.9406000000001ms
+Time for 'plugin worker 5708 code loading' 7.5944
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:23.235Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:23.235Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:23.236Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:23.236Z - Established a connection. Number of open connections: 2
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:23.236Z - Closed a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:23.238Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:23.238Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Unable to resolve local plugin with import path @nx/cypress/plugin
+Error: Unable to resolve local plugin with import path @nx/cypress/plugin
+    at findNxProjectForImportPath (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:119:11)
+    at lookupLocalPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:79:27)
+    at resolveLocalNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:42:12)
+    at getPluginPathAndName (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:56:28)
+    at resolveNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:25:62)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async loadRemoteNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\isolation\plugin-pool.js:34:62)
+    at async c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:119:52
+    at async Promise.all (index 0)
+    at async loadSpecifiedNxPlugins (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:116:9)
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:23.239Z - Done responding to the client null
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:23.239Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:23.241Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:23.242Z - Done responding to the client handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:23.242Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:23.242Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:24.541Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:24.542Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:24.542Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:24.543Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:24.543Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:24.545Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:24.546Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Unable to resolve local plugin with import path @nx/cypress/plugin
+Error: Unable to resolve local plugin with import path @nx/cypress/plugin
+    at findNxProjectForImportPath (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:119:11)
+    at lookupLocalPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:79:27)
+    at resolveLocalNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:42:12)
+    at getPluginPathAndName (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:56:28)
+    at resolveNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:25:62)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async loadRemoteNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\isolation\plugin-pool.js:34:62)
+    at async c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:119:52
+    at async Promise.all (index 0)
+    at async loadSpecifiedNxPlugins (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:116:9)
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:24.547Z - Done responding to the client null
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:24.547Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:24.549Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:24.549Z - Done responding to the client handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:24.549Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 0.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:24.550Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:25.554Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:25.554Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:25.554Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:25.555Z - Established a connection. Number of open connections: 2
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:25.555Z - Closed a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:25.556Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:25.557Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Unable to resolve local plugin with import path @nx/cypress/plugin
+Error: Unable to resolve local plugin with import path @nx/cypress/plugin
+    at findNxProjectForImportPath (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:119:11)
+    at lookupLocalPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:79:27)
+    at resolveLocalNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:42:12)
+    at getPluginPathAndName (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:56:28)
+    at resolveNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:25:62)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async loadRemoteNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\isolation\plugin-pool.js:34:62)
+    at async c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:119:52
+    at async Promise.all (index 0)
+    at async loadSpecifiedNxPlugins (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:116:9)
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:25.557Z - Done responding to the client null
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:25.557Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:25.559Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:25.560Z - Done responding to the client handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:25.560Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:25.560Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.799Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.799Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.799Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.800Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.800Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.801Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.801Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Unable to resolve local plugin with import path @nx/cypress/plugin
+Error: Unable to resolve local plugin with import path @nx/cypress/plugin
+    at findNxProjectForImportPath (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:119:11)
+    at lookupLocalPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:79:27)
+    at resolveLocalNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:42:12)
+    at getPluginPathAndName (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:56:28)
+    at resolveNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:25:62)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async loadRemoteNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\isolation\plugin-pool.js:34:62)
+    at async c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:119:52
+    at async Promise.all (index 0)
+    at async loadSpecifiedNxPlugins (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:116:9)
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.802Z - Done responding to the client null
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.802Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.803Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.803Z - Done responding to the client handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.803Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.804Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.809Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.810Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.810Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.810Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.811Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.812Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.813Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Unable to resolve local plugin with import path @nx/cypress/plugin
+Error: Unable to resolve local plugin with import path @nx/cypress/plugin
+    at findNxProjectForImportPath (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:119:11)
+    at lookupLocalPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:79:27)
+    at resolveLocalNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:42:12)
+    at getPluginPathAndName (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:56:28)
+    at resolveNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:25:62)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async loadRemoteNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\isolation\plugin-pool.js:34:62)
+    at async c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:119:52
+    at async Promise.all (index 0)
+    at async loadSpecifiedNxPlugins (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:116:9)
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.813Z - Done responding to the client null
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.813Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.816Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.817Z - Done responding to the client handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.817Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:28.817Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:30.187Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:30.188Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:30.188Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:30.188Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:30.188Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:30.190Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:30.190Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Unable to resolve local plugin with import path @nx/cypress/plugin
+Error: Unable to resolve local plugin with import path @nx/cypress/plugin
+    at findNxProjectForImportPath (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:119:11)
+    at lookupLocalPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:79:27)
+    at resolveLocalNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:42:12)
+    at getPluginPathAndName (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:56:28)
+    at resolveNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:25:62)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async loadRemoteNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\isolation\plugin-pool.js:34:62)
+    at async c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:119:52
+    at async Promise.all (index 0)
+    at async loadSpecifiedNxPlugins (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:116:9)
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:30.191Z - Done responding to the client null
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:30.191Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:30.192Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:30.193Z - Done responding to the client handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:30.193Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:30.193Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.384Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.384Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.384Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.384Z - Established a connection. Number of open connections: 2
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.385Z - Closed a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.386Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.386Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Unable to resolve local plugin with import path @nx/cypress/plugin
+Error: Unable to resolve local plugin with import path @nx/cypress/plugin
+    at findNxProjectForImportPath (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:119:11)
+    at lookupLocalPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:79:27)
+    at resolveLocalNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:42:12)
+    at getPluginPathAndName (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:56:28)
+    at resolveNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:25:62)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async loadRemoteNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\isolation\plugin-pool.js:34:62)
+    at async c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:119:52
+    at async Promise.all (index 0)
+    at async loadSpecifiedNxPlugins (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:116:9)
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.386Z - Done responding to the client null
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.387Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.388Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.388Z - Done responding to the client handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.388Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 0.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.388Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.798Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.798Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.798Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.798Z - Established a connection. Number of open connections: 2
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.799Z - Closed a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.799Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.800Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Unable to resolve local plugin with import path @nx/cypress/plugin
+Error: Unable to resolve local plugin with import path @nx/cypress/plugin
+    at findNxProjectForImportPath (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:119:11)
+    at lookupLocalPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:79:27)
+    at resolveLocalNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:42:12)
+    at getPluginPathAndName (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:56:28)
+    at resolveNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:25:62)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async loadRemoteNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\isolation\plugin-pool.js:34:62)
+    at async c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:119:52
+    at async Promise.all (index 0)
+    at async loadSpecifiedNxPlugins (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:116:9)
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.800Z - Done responding to the client null
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.800Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.801Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.801Z - Done responding to the client handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.802Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:34.802Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:43.645Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:43.645Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:43.646Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:43.647Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:43.647Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:43.650Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:43.651Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Unable to resolve local plugin with import path @nx/cypress/plugin
+Error: Unable to resolve local plugin with import path @nx/cypress/plugin
+    at findNxProjectForImportPath (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:119:11)
+    at lookupLocalPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:79:27)
+    at resolveLocalNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:42:12)
+    at getPluginPathAndName (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:56:28)
+    at resolveNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:25:62)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async loadRemoteNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\isolation\plugin-pool.js:34:62)
+    at async c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:119:52
+    at async Promise.all (index 0)
+    at async loadSpecifiedNxPlugins (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:116:9)
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:43.651Z - Done responding to the client null
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:43.651Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:43.654Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:43.654Z - Done responding to the client handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:43.654Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 0.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:43.657Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:45.497Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:45.497Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:45.498Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:45.498Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:45.499Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:45.502Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:45.503Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Unable to resolve local plugin with import path @nx/cypress/plugin
+Error: Unable to resolve local plugin with import path @nx/cypress/plugin
+    at findNxProjectForImportPath (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:119:11)
+    at lookupLocalPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:79:27)
+    at resolveLocalNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:42:12)
+    at getPluginPathAndName (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:56:28)
+    at resolveNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\resolve-plugin.js:25:62)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async loadRemoteNxPlugin (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\isolation\plugin-pool.js:34:62)
+    at async c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:119:52
+    at async Promise.all (index 0)
+    at async loadSpecifiedNxPlugins (c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\project-graph\plugins\get-plugins.js:116:9)
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:45.504Z - Done responding to the client null
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:45.504Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:45.506Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:45.507Z - Done responding to the client handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:45.507Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:19:45.508Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:42.517Z - [WATCHER]: Processing file changes in outputs
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:42.518Z - [WATCHER]: Stopping the watcher for c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse (sources)
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:42.519Z - [WATCHER]: Stopping the watcher for c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse (outputs)
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:42.521Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:45.276Z - Started listening on: \\.\pipe\nx\C:\Users\34600\AppData\Local\Temp\1cab9c4461bd1037940a\d.sock
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:45.281Z - [WATCHER]: Subscribed to changes within: c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse (native)
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:45.296Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:45.300Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:45.339Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:45.340Z - Closed a connection. Number of open connections: 0
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:45.340Z - Established a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:45.342Z - [REQUEST]: Client Request for Project Graph Received
+Time for 'plugin worker 2632 code loading' 9.777299999999997
+Time for 'plugin worker 19972 code loading' 12.647299999999994
+Time for 'plugin worker 24156 code loading' 9.587599999999995
+Time for 'plugin worker 7356 code loading' 11.497100000000003
+Time for 'plugin worker 5660 code loading' 11.874699999999997
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:45.829Z - Time taken for 'Load Nx Plugin: c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\plugins\package-json' 469.86280000000005ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:45.837Z - Time taken for 'Load Nx Plugin: c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\node_modules\nx\src\plugins\project-json\build-nodes\project-json' 478.3206ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:45.882Z - Time taken for 'loadDefaultNxPlugins' 524.7806ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.004Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 647.7914ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.127Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.127Z - [REQUEST]: 
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.127Z - [REQUEST]: 
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.129Z - No files changed, but no in-memory cached project graph found. Recomputing it...
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.139Z - Time taken for 'loadSpecifiedNxPlugins' 783.2994999999999ms
+Time for 'nx/core/package-json:createNodes' 1.627299999999991
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.142Z - Established a connection. Number of open connections: 2
+Time for 'nx/core/project-json:createNodes' 1.4057999999999993
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.144Z - Closed a connection. Number of open connections: 1
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.144Z - Established a connection. Number of open connections: 2
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.145Z - Established a connection. Number of open connections: 3
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.145Z - Closed a connection. Number of open connections: 2
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.148Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.148Z - Established a connection. Number of open connections: 3
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.148Z - Done responding to the client handleHashGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.149Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.151Z - [REQUEST]: Responding to the client. handleGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.152Z - Done responding to the client handleGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.152Z - Handled GLOB. Handling time: 1. Response time: 1.
+Time for 'total for sendMessageToDaemon()' 6.883299999999963
+Time for 'deserialize daemon response' 0.06529999999997926
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.157Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.157Z - Done responding to the client handleHashMultiGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:46.158Z - Handled HASH_GLOB. Handling time: 2. Response time: 1.
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 29.28419999999994
+Time for 'total for sendMessageToDaemon()' 4.548999999999978
+Time for 'deserialize daemon response' 0.033599999999978536
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:50.198Z - [REQUEST]: Responding to the client. handleGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:50.199Z - Done responding to the client handleGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:22:50.199Z - Handled GLOB. Handling time: 1. Response time: 1.
+Time for '@nx/cypress/plugin:createNodes' 4075.4811
+Time for 'total for sendMessageToDaemon()' 4.964599999999336
+Time for 'deserialize daemon response' 0.04389999999966676
+Time for 'total for sendMessageToDaemon()' 4.335500000000025
+Time for 'deserialize daemon response' 0.030300000000011096
+Time for '@nx/eslint/plugin:createNodes' 20582.0376
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:06.853Z - Time taken for 'build-project-configs' 20699.0298ms
+Time for 'build typescript dependencies' 87.88290000000052
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:07.084Z - Wrote project graph cache to c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\.nx\workspace-data\project-graph.json
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:07.085Z - [SYNC]: collect registered sync generators
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:07.087Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:07.088Z - Time taken for 'total for creating and serializing project graph' 21744.704700000002ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:07.090Z - Done responding to the client project-graph
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:07.090Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 21745. Response time: 3.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:07.098Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:07.098Z - Done responding to the client handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:07.098Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 0.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:07.099Z - Closed a connection. Number of open connections: 2
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:07.994Z - [WATCHER]: Processing file changes in outputs
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:07.996Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.100Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.100Z - [REQUEST]: nx.json,.github/workflows/ci.yml
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.100Z - [REQUEST]: 
+Time for 'nx/core/package-json:createNodes' 0.7669999999998254
+Time for 'nx/core/project-json:createNodes' 0.7591000000029453
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.108Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.110Z - [REQUEST]: Responding to the client. handleGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.111Z - Time taken for 'hash changed files from watcher' 0.3550000000032014ms
+Time for '@nx/cypress/plugin:createNodes' 6.9245000000009895
+Time for 'total for sendMessageToDaemon()' 4.358200000002398
+Time for 'deserialize daemon response' 0.026100000002770685
+Time for 'total for sendMessageToDaemon()' 5.226699999999255
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.111Z - Done responding to the client handleHashGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.111Z - Handled HASH_GLOB. Handling time: 1. Response time: 3.
+Time for 'deserialize daemon response' 0.02839999999923748
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.112Z - Done responding to the client handleGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.112Z - Handled GLOB. Handling time: 0. Response time: 2.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.114Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.114Z - Done responding to the client handleHashMultiGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.114Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+Time for 'total for sendMessageToDaemon()' 2.961299999999028
+Time for 'deserialize daemon response' 0.015599999998812564
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 10.362300000000687
+Time for '@nx/eslint/plugin:createNodes' 46.46129999999903
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.162Z - Time taken for 'build-project-configs' 51.71189999999842ms
+Time for 'build typescript dependencies' 0.051799999997456325
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.200Z - Wrote project graph cache to c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\.nx\workspace-data\project-graph.json
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.200Z - [SYNC]: collect registered sync generators
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.201Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.201Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.201Z - Time taken for 'total execution time for createProjectGraph()' 28.579100000002654ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.624Z - [WATCHER]: error.log was modified
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.624Z - [WATCHER]: Processing file changes in outputs
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.826Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.827Z - [REQUEST]: error.log
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.827Z - [REQUEST]: 
+Time for 'nx/core/project-json:createNodes' 0.4356000000007043
+Time for 'nx/core/package-json:createNodes' 0.5855000000010477
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.833Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for '@nx/cypress/plugin:createNodes' 6.493500000000495
+Time for 'total for sendMessageToDaemon()' 4.395400000001246
+Time for 'deserialize daemon response' 0.024699999998119893
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.836Z - [REQUEST]: Responding to the client. handleGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.836Z - Time taken for 'hash changed files from watcher' 0.1574000000000524ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.836Z - Done responding to the client handleHashGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.836Z - Handled HASH_GLOB. Handling time: 0. Response time: 3.
+Time for 'total for sendMessageToDaemon()' 4.983699999997043
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.837Z - Done responding to the client handleGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.837Z - Handled GLOB. Handling time: 1. Response time: 1.
+Time for 'deserialize daemon response' 0.02289999999993597
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.840Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.840Z - Done responding to the client handleHashMultiGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.840Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+Time for 'total for sendMessageToDaemon()' 3.414199999999255
+Time for 'deserialize daemon response' 0.017899999998917338
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 10.08980000000156
+Time for '@nx/eslint/plugin:createNodes' 38.35650000000169
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.880Z - Time taken for 'build-project-configs' 43.754799999998795ms
+Time for 'build typescript dependencies' 0.027600000001257285
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.924Z - Wrote project graph cache to c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\.nx\workspace-data\project-graph.json
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.924Z - [SYNC]: collect registered sync generators
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.925Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.925Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:08.925Z - Time taken for 'total execution time for createProjectGraph()' 32.21160000000236ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:09.641Z - Established a connection. Number of open connections: 3
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:09.641Z - Closed a connection. Number of open connections: 2
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:09.642Z - Established a connection. Number of open connections: 3
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:09.642Z - Closed a connection. Number of open connections: 2
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:09.643Z - Established a connection. Number of open connections: 3
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:09.644Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:09.645Z - Reusing in-memory cached project graph because no files changed.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:09.645Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:09.647Z - Time taken for 'total for creating and serializing project graph' 0.8258999999998196ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:09.647Z - Done responding to the client project-graph
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:09.647Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:09.653Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:09.653Z - Done responding to the client handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:09.653Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:23:09.654Z - Closed a connection. Number of open connections: 2
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:33.842Z - [WATCHER]: Processing file changes in outputs
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:33.844Z - [WATCHER]: .git was deleted
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:33.952Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:33.952Z - [REQUEST]: 
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:33.952Z - [REQUEST]: .git
+Time for 'nx/core/package-json:createNodes' 0.6995000001043081
+Time for 'nx/core/project-json:createNodes' 0.7353000000584871
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:33.964Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:33.964Z - Time taken for 'hash changed files from watcher' 0.1454999998677522ms
+Time for '@nx/cypress/plugin:createNodes' 10.114000000059605
+Time for 'total for sendMessageToDaemon()' 6.331800000043586
+Time for 'deserialize daemon response' 0.018700000131502748
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:33.968Z - [REQUEST]: Responding to the client. handleGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:33.969Z - Done responding to the client handleHashGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:33.969Z - Handled HASH_GLOB. Handling time: 1. Response time: 5.
+Time for 'total for sendMessageToDaemon()' 6.4440000001341105
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:33.969Z - Done responding to the client handleGlob
+Time for 'deserialize daemon response' 0.029900000197812915
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:33.970Z - Handled GLOB. Handling time: 1. Response time: 2.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:33.973Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:33.974Z - Done responding to the client handleHashMultiGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:33.974Z - Handled HASH_GLOB. Handling time: 2. Response time: 1.
+Time for '@nx/eslint/plugin:createNodes' 14.381399999838322
+Time for 'total for sendMessageToDaemon()' 4.3377000000327826
+Time for 'deserialize daemon response' 0.024399999994784594
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 16.492900000186637
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.005Z - Time taken for 'build-project-configs' 39.89440000010654ms
+Time for 'build typescript dependencies' 0.04059999994933605
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.069Z - Wrote project graph cache to c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\.nx\workspace-data\project-graph.json
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.069Z - [SYNC]: collect registered sync generators
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.070Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.070Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.070Z - Time taken for 'total execution time for createProjectGraph()' 44.96889999997802ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.862Z - Established a connection. Number of open connections: 3
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.863Z - Closed a connection. Number of open connections: 2
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.864Z - Established a connection. Number of open connections: 3
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.864Z - Established a connection. Number of open connections: 4
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.864Z - Closed a connection. Number of open connections: 3
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.866Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.866Z - Reusing in-memory cached project graph because no files changed.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.866Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.867Z - Time taken for 'total for creating and serializing project graph' 0.513099999865517ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.869Z - Done responding to the client project-graph
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.869Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.875Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.875Z - Done responding to the client handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.875Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX v21.4.0 Daemon Server] - 2025-08-16T20:42:34.876Z - Closed a connection. Number of open connections: 2
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.533Z - [WATCHER]: .vscode/settings.json was modified
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.534Z - [WATCHER]: Processing file changes in outputs
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.632Z - [WATCHER]: Processing file changes in outputs
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.633Z - [WATCHER]: .vscode/settings.json was modified
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.668Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.668Z - [REQUEST]: .vscode/settings.json
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.668Z - [REQUEST]: 
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.676Z - Time taken for 'hash changed files from watcher' 15.139700000174344ms
+Time for 'nx/core/package-json:createNodes' 11.022299999836832
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.688Z - [REQUEST]: Responding to the client. handleHashGlob
+Time for '@nx/cypress/plugin:createNodes' 17.60330000007525
+Time for 'total for sendMessageToDaemon()' 4.217600000090897
+Time for 'deserialize daemon response' 0.02350000012665987
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.690Z - [REQUEST]: Responding to the client. handleGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.691Z - Done responding to the client handleHashGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.691Z - Handled HASH_GLOB. Handling time: 3. Response time: 3.
+Time for 'total for sendMessageToDaemon()' 4.450399999972433
+Time for 'deserialize daemon response' 0.026099999900907278
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.692Z - Done responding to the client handleGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.692Z - Handled GLOB. Handling time: 1. Response time: 2.
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.694Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.695Z - Done responding to the client handleHashMultiGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.695Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+Time for 'total for sendMessageToDaemon()' 3.5559999998658895
+Time for 'deserialize daemon response' 0.019899999722838402
+Time for 'nx/core/project-json:createNodes' 20.352799999993294
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 42.38560000015423
+Time for '@nx/eslint/plugin:createNodes' 63.33729999978095
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.755Z - Time taken for 'build-project-configs' 70.68779999995604ms
+Time for 'build typescript dependencies' 0.023000000044703484
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.798Z - Wrote project graph cache to c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\.nx\workspace-data\project-graph.json
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.798Z - [SYNC]: collect registered sync generators
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.799Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.799Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:28.799Z - Time taken for 'total execution time for createProjectGraph()' 38.075300000142306ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:29.646Z - Established a connection. Number of open connections: 3
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:29.647Z - Closed a connection. Number of open connections: 2
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:29.647Z - Established a connection. Number of open connections: 3
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:29.647Z - Established a connection. Number of open connections: 4
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:29.648Z - Closed a connection. Number of open connections: 3
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:29.649Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:29.649Z - Reusing in-memory cached project graph because no files changed.
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:29.649Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:29.651Z - Time taken for 'total for creating and serializing project graph' 0.8009999999776483ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:29.651Z - Done responding to the client project-graph
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:29.652Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:29.658Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:29.658Z - Done responding to the client handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:29.658Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:23:29.658Z - Closed a connection. Number of open connections: 2
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:37:30.635Z - Established a connection. Number of open connections: 3
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:37:30.636Z - Closed a connection. Number of open connections: 2
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:37:30.639Z - Established a connection. Number of open connections: 3
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:37:30.639Z - Closed a connection. Number of open connections: 2
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:37:30.640Z - Established a connection. Number of open connections: 3
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:37:30.665Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:37:30.679Z - Reusing in-memory cached project graph because no files changed.
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:37:30.680Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:37:30.681Z - Time taken for 'total for creating and serializing project graph' 14.636099999770522ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:37:30.683Z - Done responding to the client project-graph
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:37:30.683Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 15. Response time: 3.
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:37:30.692Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:37:30.692Z - Done responding to the client handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:37:30.692Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 0.
+[NX v21.4.0 Daemon Server] - 2025-08-16T21:37:30.694Z - Closed a connection. Number of open connections: 2
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.211Z - [WATCHER]: .git was deleted
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.211Z - [WATCHER]: Processing file changes in outputs
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.318Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.318Z - [REQUEST]: 
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.318Z - [REQUEST]: .git
+Time for 'nx/core/package-json:createNodes' 1.2974000005051494
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.328Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.329Z - Time taken for 'hash changed files from watcher' 0.1872999994084239ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.329Z - Done responding to the client handleHashGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.329Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+Time for '@nx/cypress/plugin:createNodes' 8.552600000053644
+Time for 'total for sendMessageToDaemon()' 5.319299999624491
+Time for 'deserialize daemon response' 0.018399999476969242
+Time for 'nx/core/project-json:createNodes' 12.320000000298023
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.340Z - [REQUEST]: Responding to the client. handleGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.340Z - Done responding to the client handleGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.340Z - Handled GLOB. Handling time: 1. Response time: 0.
+Time for 'total for sendMessageToDaemon()' 3.1968000000342727
+Time for 'deserialize daemon response' 0.02220000047236681
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.344Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.344Z - Done responding to the client handleHashMultiGlob
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.344Z - Handled HASH_GLOB. Handling time: 2. Response time: 0.
+Time for '@nx/eslint/plugin:createNodes' 22.709599999710917
+Time for 'total for sendMessageToDaemon()' 3.886400000192225
+Time for 'deserialize daemon response' 0.02310000080615282
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 41.75899999961257
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.397Z - Time taken for 'build-project-configs' 57.54829999990761ms
+Time for 'build typescript dependencies' 0.02479999978095293
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.445Z - Wrote project graph cache to c:\Personal\Repositorio\Proyectos\Curso Angular\Repos\angularEnterpriseCourse\.nx\workspace-data\project-graph.json
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.445Z - [SYNC]: collect registered sync generators
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.447Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.447Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:44.447Z - Time taken for 'total execution time for createProjectGraph()' 46.99910000059754ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:45.232Z - Established a connection. Number of open connections: 3
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:45.233Z - Closed a connection. Number of open connections: 2
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:45.234Z - Established a connection. Number of open connections: 3
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:45.234Z - Established a connection. Number of open connections: 4
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:45.234Z - Closed a connection. Number of open connections: 3
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:45.236Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:45.237Z - Reusing in-memory cached project graph because no files changed.
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:45.238Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:45.239Z - Time taken for 'total for creating and serializing project graph' 1.521900000050664ms
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:45.240Z - Done responding to the client project-graph
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:45.240Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 2.
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:45.250Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:45.250Z - Done responding to the client handleContextFileData
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:45.250Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 0.
+[NX v21.4.0 Daemon Server] - 2025-08-16T22:08:45.251Z - Closed a connection. Number of open connections: 2
