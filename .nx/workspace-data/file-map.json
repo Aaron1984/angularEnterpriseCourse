@@ -22,68 +22,68 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
         "file": ".editorconfig",
         "hash": "5443105041930014821"
-      },
-      {
-        "file": "nx.json",
-        "hash": "7086474855990232815"
-      },
-      {
-        "file": "README.md",
-        "hash": "4299546936013326084"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
       },
       {
         "file": ".github/workflows/ci.yml",
         "hash": "9154451320656007460"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "4637156562308165301"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "10770449096712831357"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "12791120726860162952"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "6870352021923392442"
-      },
-      {
         "file": ".gitignore",
         "hash": "17559216753634855455"
-      },
-      {
-        "file": "package.json",
-        "hash": "13378911256491883810"
       },
       {
         "file": ".prettierignore",
         "hash": "5407418692668764289"
       },
       {
-        "file": "error.log",
-        "hash": "13790753209625932028"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
+        "file": ".vscode/extensions.json",
+        "hash": "4637156562308165301"
       },
       {
         "file": ".vscode/settings.json",
         "hash": "1061848216260894656"
+      },
+      {
+        "file": "README.md",
+        "hash": "4299546936013326084"
+      },
+      {
+        "file": "error.log",
+        "hash": "13790753209625932028"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "10770449096712831357"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "6870352021923392442"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "nx.json",
+        "hash": "7086474855990232815"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "12791120726860162952"
+      },
+      {
+        "file": "package.json",
+        "hash": "13378911256491883810"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
       }
     ],
     "projectFileMap": {
