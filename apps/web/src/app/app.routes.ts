@@ -1,3 +1,30 @@
 import { Route } from '@angular/router';
+import { MainLayoutComponent } from '@lib/shared/ui';
 
-export const appRoutes: Route[] = [];
+export const appRoutes: Route[] = [
+    {
+    path: '',
+    component: MainLayoutComponent,
+    children: [
+      {
+        path: 'login',
+        loadComponent: () =>
+          import('@lib/auth/feature').then(
+            (m) => m.LoginComponent
+          ),
+      },
+      {
+        path: 'register',
+        loadComponent: () =>
+          import('@lib/auth/feature').then(
+            (m) => m.RegisterComponent
+          ),
+      }
+    ],
+  },
+  {
+    path: '',
+    redirectTo: 'login',
+    pathMatch: 'full'
+  }
+];

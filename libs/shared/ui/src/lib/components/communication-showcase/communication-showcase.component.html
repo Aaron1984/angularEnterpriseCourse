@@ -1,0 +1,29 @@
+<h2>Comparativa: Comunicación Padre ↔ Hijo</h2>
+
+<section>
+  <h3>Clásico</h3>
+  <lib-classic-communication
+    [name]="classicName"
+    (nameChanged)="updateClassicName($event)"
+  />
+  <p><strong>Padre recibe:</strong> {{ classicName }}</p>
+</section>
+
+<hr />
+
+<section>
+  <h3>Signals</h3>
+  <input [value]="signalName()" (input)="updateSignalName($event)" />
+  <lib-signal-communication [name]="signalName()" />
+  <p><strong>Padre signal:</strong> {{ signalName() }}</p>
+</section>
+
+<hr />
+
+<section>
+  <h3>Input con Signals</h3>
+  <input [value]="signalName()" (input)="updateSignalName($event)" />
+  <lib-custom-text #customText />
+  <p><strong>Padre signal:</strong> {{ signalName() }}</p>
+</section>
+

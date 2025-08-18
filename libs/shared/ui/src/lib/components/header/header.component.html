@@ -1,0 +1,34 @@
+<header class="header">
+  <div class="logo">
+    <img src="/assets/logo.svg" alt="Resergo" height="32" />
+    {{ exampleInput() }}
+  </div>
+
+  <nav class="nav-links">
+    <a class="nav-item"
+       tabindex="0"
+       (click)="navigationAction.set(null)"
+       (keydown)="($event.key === 'Enter' || $event.key === ' ') && navigationAction.set(null)">
+      Inicio
+    </a>
+    <a class="nav-item"
+       tabindex="0"
+       (click)="navigationAction.set(null)"
+       (keydown)="($event.key === 'Enter' || $event.key === ' ') && navigationAction.set(null)">
+      Servicios
+    </a>
+  </nav>
+
+  <div class="auth-buttons">
+    @if(authStore.isLoggedIn()) {
+      <button class="btn-outline" (click)="logout()">Cerrar sesión</button>
+
+    }
+    @else {
+      <button class="btn-outline" (click)="goToLogin()">Iniciar Sesión</button>
+      <button class="btn-dark" (click)="goToRegister()">Registro</button>
+    }
+
+  </div>
+</header>
+

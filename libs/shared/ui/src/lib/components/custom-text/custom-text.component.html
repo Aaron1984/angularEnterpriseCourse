@@ -1,0 +1,7 @@
+@if(textSignal !== undefined) {
+  <div class="custom-text">
+    <h4>CustomText con Signal como Input</h4>
+    <input [value]="textSignal()" (input)="onChange($event)" />
+    <p>Valor actual: {{ textSignal() }}</p>
+  </div>
+}

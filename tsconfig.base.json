@@ -18,9 +18,11 @@
       "@lib/auth/data-access": ["libs/auth/data-access/src/index.ts"],
       "@lib/auth/domain": ["libs/auth/domain/src/index.ts"],
       "@lib/auth/feature": ["libs/auth/feature/src/index.ts"],
+      "@lib/shared/data-access": [
+        "libs/shared/shared-data-access/src/index.ts"
+      ],
       "@lib/shared/ui": ["libs/shared/ui/src/index.ts"],
-      "@lib/shared/util": ["libs/shared/util/src/index.ts"],
-      "@lib/shared/data-access": ["libs/shared/shared-data-access/src/index.ts"],
+      "@lib/shared/util": ["libs/shared/util/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
