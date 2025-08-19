@@ -1,4 +1,4 @@
-<div class="login-container">
+<!-- <div class="login-container">
   <h1>Resergo</h1>
   @if (authStore.isLoggedIn()) {
     <p>Bienvenido, {{ authStore.user()?.name }}</p>
@@ -45,5 +45,58 @@
     }
   </form>
 }
+</div> -->
+
+
+<div class="login-container">
+  <h1>Resergo</h1>
+
+  @if (store.isLoggedIn()) {
+    <p>Bienvenido, {{ store.user()?.name }}</p>
+    <button type="button" (click)="handleLogout()">Cerrar sesión</button>
+  } @else {
+    <form class="login-form" (ngSubmit)="handleLogin()" autocomplete="on">
+      <label for="email">Email</label>
+      <input
+        id="email"
+        name="email"
+        type="email"
+        inputmode="email"
+        autocomplete="email"
+        [ngModel]="email()"
+        (ngModelChange)="email.set($event)"
+        placeholder="Correo electrónico"
+        required
+      />
+
+      <label for="password">Contraseña</label>
+      <input
+        id="password"
+        name="password"
+        type="password"
+        autocomplete="current-password"
+        [ngModel]="password()"
+        (ngModelChange)="password.set($event)"
+        placeholder="Contraseña"
+        minlength="6"
+        required
+      />
+
+      <button
+        type="submit"
+        [disabled]="!validForm() || store.status() === 'loading'"
+      >
+        @if (store.status() === 'loading') { Cargando… } @else { Acceder }
+      </button>
+
+      <a routerLink="/forgot-password" class="forgot-password">
+        ¿Olvidaste la contraseña?
+      </a>
+
+      @if (store.error()) {
+        <p class="error" aria-live="polite">{{ store.error() }}</p>
+      }
+    </form>
+  }
 </div>
 
