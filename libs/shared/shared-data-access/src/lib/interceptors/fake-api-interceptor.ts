@@ -16,7 +16,7 @@ export const fakeApiInterceptor: HttpInterceptorFn = (req, next) => {
       roles: ['admin']
     };
 
-    return ok(user, 500);
+    return ok(user, 10000);
   }
 
   if (url.endsWith('/api/register') && method === 'POST') {

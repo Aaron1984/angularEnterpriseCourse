@@ -20,9 +20,8 @@
   </nav>
 
   <div class="auth-buttons">
-    @if(authStore.isLoggedIn()) {
+    @if(store.isLoggedIn()) {
       <button class="btn-outline" (click)="logout()">Cerrar sesión</button>
-
     }
     @else {
       <button class="btn-outline" (click)="goToLogin()">Iniciar Sesión</button>

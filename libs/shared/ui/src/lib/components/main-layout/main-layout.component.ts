@@ -2,6 +2,7 @@ import { afterNextRender, Component, effect, inject, Injector, runInInjectionCon
 import { Router, RouterModule } from '@angular/router';
 import { HeaderComponent } from '../header/header.component';
 import { CommunicationShowcaseComponent } from '../communication-showcase/communication-showcase.component';
+import { AuthSignalstore } from '@lib/auth/data-access';
 
 @Component({
   selector: 'lib-main-layout.component',
@@ -16,6 +17,7 @@ import { CommunicationShowcaseComponent } from '../communication-showcase/commun
 export class MainLayoutComponent {
   @ViewChild(HeaderComponent) header!: HeaderComponent;
 
+  private readonly store = inject(AuthSignalstore);
   private readonly router = inject(Router);
   private readonly injector = inject(Injector);
 
@@ -27,6 +29,11 @@ export class MainLayoutComponent {
           const action = this.header.navigationAction();
 
           if (action === 'login') {
+            this.router.navigate(['/login']);
+            this.header.navigationAction.set(null);
+          }
+          else if (action === 'logout') {
+            this.store.logout();
             this.router.navigate(['/login']);
             this.header.navigationAction.set(null);
           }

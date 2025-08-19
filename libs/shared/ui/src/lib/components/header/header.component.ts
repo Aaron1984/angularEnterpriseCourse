@@ -1,5 +1,5 @@
 import { Component, inject, signal, WritableSignal } from '@angular/core';
-import { AuthStoreService } from '@lib/auth/data-access';
+import { AuthSignalstore, AuthStoreService } from '@lib/auth/data-access';
 
 @Component({
   selector: 'lib-header',
@@ -11,9 +11,9 @@ import { AuthStoreService } from '@lib/auth/data-access';
 })
 export class HeaderComponent {
 
-  navigationAction: WritableSignal<'login' | 'register' | 'register-form' | null> = signal(null);
+  navigationAction: WritableSignal<'login' | 'logout' | 'register' | 'register-form' | null> = signal(null);
   exampleInput = signal('');
-  authStore = inject(AuthStoreService);
+  store = inject(AuthSignalstore);
 
   goToLogin() {
     this.navigationAction.set('login');
@@ -32,7 +32,6 @@ export class HeaderComponent {
   }
 
   logout() {
-    this.authStore.logout();
-    this.navigationAction.set('login');
+    this.navigationAction.set('logout');
   }
 }
