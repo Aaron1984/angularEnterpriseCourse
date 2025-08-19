@@ -1,1 +1,45 @@
-<p>register.component works!</p>
+<div class="register-container">
+  <h1>Resergo Registro</h1>
+  @if (authStore.isLoggedIn()) {
+    <p>Bienvenido, {{ authStore.user()?.name }}</p>
+    <button (click)="handleLogout()">Cerrar sesión</button>
+  }
+  @else {
+  <form class="register-form" (submit)="handleRegister(); $event.preventDefault()">
+    <label for="name">Nombre</label>
+    <input
+      name="name"
+      [ngModel]="name()"
+      (ngModelChange)="name.set($event)"
+      placeholder="Nombre completo"
+      required
+      />
+
+    <label for="email">Email</label>
+    <input
+      name="email"
+      [ngModel]="email()"
+      (ngModelChange)="email.set($event)"
+      placeholder="Correo Electrónico"
+      required
+      />
+
+    <label for="password">Contraseña</label>
+    <input
+      name="password"
+      type="password"
+      [ngModel]="password()"
+      (ngModelChange)="password.set($event)"
+      placeholder="Contraseña"
+      required
+      />
+
+    <button [disabled]="!validForm()">Registrarse</button>
+
+    @if (error()) {
+      <p>{{ error() }}</p>
+    }
+  </form>
+
+}
+</div>

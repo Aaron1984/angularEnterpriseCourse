@@ -19,6 +19,13 @@ export const appRoutes: Route[] = [
           import('@lib/auth/feature').then(
             (m) => m.RegisterComponent
           ),
+      },
+      {
+        path: 'register-form',
+        loadComponent: () =>
+          import('@lib/auth/feature').then(
+            (m) => m.RegisterFormComponent
+          ),
       }
     ],
   },

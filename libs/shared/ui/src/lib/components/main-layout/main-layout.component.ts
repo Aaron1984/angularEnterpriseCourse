@@ -29,8 +29,13 @@ export class MainLayoutComponent {
           if (action === 'login') {
             this.router.navigate(['/login']);
             this.header.navigationAction.set(null);
-          } else if (action === 'register') {
+          }
+          else if (action === 'register') {
             this.router.navigate(['/register']);
+            this.header.navigationAction.set(null);
+          }
+          else if (action === 'register-form') {
+            this.router.navigate(['/register-form']);
             this.header.navigationAction.set(null);
           }
         });

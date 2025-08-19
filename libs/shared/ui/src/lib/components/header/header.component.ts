@@ -11,12 +11,16 @@ import { AuthStoreService } from '@lib/auth/data-access';
 })
 export class HeaderComponent {
 
-  navigationAction: WritableSignal<'login' | 'register' | null> = signal(null);
+  navigationAction: WritableSignal<'login' | 'register' | 'register-form' | null> = signal(null);
   exampleInput = signal('');
   authStore = inject(AuthStoreService);
 
   goToLogin() {
     this.navigationAction.set('login');
+  }
+
+  goToRegisterForm() {
+    this.navigationAction.set('register-form');
   }
 
   goToRegister() {

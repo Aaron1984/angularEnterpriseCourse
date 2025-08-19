@@ -1,0 +1,78 @@
+<div class="register-container">
+  <h1>Crear cuenta</h1>
+
+  @if (store.isLoggedIn()) {
+    <p>Ya has iniciado sesión como <strong>{{ store.userName() }}</strong>.</p>
+    <button type="button" (click)="store.logout()">Cerrar sesión</button>
+  } @else {
+    <form [formGroup]="form" (ngSubmit)="handleRegister()" autocomplete="on" class="register-form">
+
+      <label for="name">Nombre</label>
+      <input
+        id="name"
+        type="text"
+        name="name"
+        formControlName="name"
+        autocomplete="name"
+        required
+      />
+      @if (f.name.touched && f.name.invalid) {
+        <small class="error">Introduce tu nombre (mín. 2 caracteres).</small>
+      }
+
+      <label for="email">Email</label>
+      <input
+        id="email"
+        type="email"
+        name="email"
+        formControlName="email"
+        inputmode="email"
+        autocomplete="email"
+        required
+      />
+      @if (f.email.touched && f.email.invalid) {
+        <small class="error">Introduce un email válido.</small>
+      }
+
+      <label for="password">Contraseña</label>
+      <input
+        id="password"
+        type="password"
+        name="newPassword"
+        formControlName="password"
+        autocomplete="new-password"
+        minlength="6"
+        required
+      />
+      @if (f.password.touched && f.password.invalid) {
+        <small class="error">Mínimo 6 caracteres.</small>
+      }
+
+      <label for="confirmPassword">Repite la contraseña</label>
+      <input
+        id="confirmPassword"
+        type="password"
+        name="newPassword"
+        formControlName="confirmPassword"
+        autocomplete="new-password"
+        minlength="6"
+        required
+      />
+      @if ((f.confirmPassword.touched || f.password.touched) && passwordsMismatch) {
+        <small class="error">Las contraseñas no coinciden.</small>
+      }
+
+      <button
+        type="submit"
+        [disabled]="form.invalid || store.status() === 'loading' || passwordsMismatch"
+      >
+        @if (store.status() === 'loading') { Creando… } @else { Registrarse }
+      </button>
+
+      @if (store.error()) {
+        <p class="error" aria-live="polite">{{ store.error() }}</p>
+      }
+    </form>
+  }
+</div>
+
